@@ -1,0 +1,21 @@
+# Node.js dependencies
+node_modules/
+
+# Log files
+*api/logs/
+api/config/
+
+# Environment variables
+*.env
+*.idea/
+# Build output
+dist/
+build/
+
+# Coverage directory
+coverage/
+
+
+# Operating system files
+.DS_Store
+Thumbs.db
