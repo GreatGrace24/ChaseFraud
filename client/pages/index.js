@@ -18,7 +18,7 @@ export default function Home() {
 
     try {
       const response = await axios.get(
-        `http://localhost:5000/api/search?query=${query}`
+        `${process.env.NEXT_PUBLIC_API_URL}/search?query=${query}`
       );
       console.log("Query being sent to backend:", query);
 
